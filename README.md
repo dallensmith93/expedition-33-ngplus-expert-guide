@@ -6,6 +6,15 @@
 
 Open [`ui/index.html`](ui/index.html) in a browser (double-click the file). No server required.
 
+### Netlify
+
+This repo is set to publish the `ui/` folder (`netlify.toml`).
+
+1. Import **https://github.com/dallensmith93/expedition-33-ngplus-expert-guide** in Netlify.
+2. Leave the build command as `node ui/build.mjs`.
+3. Publish directory must be `ui`.
+4. Deploy. The site root should load the field manual, not a 404.
+
 If you edit episode markdown, rebuild the UI data:
 
 ```bash
