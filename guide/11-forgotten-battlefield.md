@@ -8,6 +8,14 @@
 
 Continent, Forgotten Battlefield Main Gate. Swim content from Episode 10 is done.
 
+## THIS SESSION
+
+1. 100% Forgotten Battlefield: journals 41 and 57, Paint Cage, Dualliste. Log Paint Spikes.
+2. Exit north. Do **not** enter Monoco's Station.
+3. Lost Gestral #4 at the two green-leaf trees. Buy Lost Voice from Strabami.
+4. Camp: talk Esquie / Sciel / Lune, sleep for Maelle rank 1, then Sastro for **Paint Break**. Break his tutorial spike.
+5. Stop. Spike backtrack is Episode 12.
+
 ## BEFORE WE START
 
 - Verso is in the party. Gustave is gone. Verso inherits the weapon collection.

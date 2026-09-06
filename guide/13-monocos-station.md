@@ -8,6 +8,13 @@ Recruit Monoco. Take Journal 65. Do the Act I/II overworld skill sweep while the
 
 Continent, Monoco's Station portal. Paint Break owned. Gestrals 1–4 done.
 
+## THIS SESSION
+
+1. Enter Monoco's Station. Monoco joins. Journal 65. Keep him in the party for new enemy types.
+2. Continent sweep with Monoco: Stone Quarry + Troubadour (spare), Carousel record, Painting Workshop visit 2, Esoteric Ruins / Portier if you want it now.
+3. Accept the Grandis Eternal Ice request. You deliver it in Episode 22.
+4. Do **not** enter Old Lumière.
+
 ## BEFORE WE START
 
 - Put Monoco in the active trio and **leave him there** for the rest of this episode.

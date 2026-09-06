@@ -8,6 +8,12 @@
 
 Continent, Yellow Harvest portal. Esquie mount unlocked.
 
+## THIS SESSION
+
+1. 100% Yellow Harvest: journals 38, 44, 59. Spare harvest Nevrons you do not need to kill.
+2. Area boss. Then Lost Woods for Aline's Glasshouse.
+3. Log Paint Spikes. Stop. Stone Wave Cliffs dungeon is Episode 9.
+
 ## BEFORE WE START
 
 - This is the first optional *dungeon* that can surprise Expert players if Cheater is off. Strong Build if you have been ignoring Pictos.

@@ -8,6 +8,12 @@ Finish all 33 Endless Tower trials. Take the Clea record, Clair outfit, Ponytail
 
 Endless Tower doorway, Continent west/NW of Gestral Village.
 
+## THIS SESSION
+
+1. Finish all 33 Endless Tower trials. Take Clea record, Clair outfit, Ponytail.
+2. Beat the four Thank You portraits: Chromatic Lampmaster, Duollistes, Clea Unleashed, Simon the Divergent Star. Originals must already be dead.
+3. This is the last combat episode before the audit. Do **not** enter Lumière.
+
 ## BEFORE WE START
 
 # ⚠ SPOILER

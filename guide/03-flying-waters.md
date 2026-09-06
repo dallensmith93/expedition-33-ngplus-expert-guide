@@ -8,6 +8,13 @@ Full Flying Waters clear: both Paint Cages, Journal 68, Demineur quest, Maelle r
 
 Flying Waters entrance / first interior after the Continent walk from Spring Meadows.
 
+## THIS SESSION
+
+1. Clear Flying Waters on the first visit: both Paint Cages, Journal 68, Demineur quest (spare him).
+2. Maelle rejoins in the Manor beat. Take every named Picto and weapon on the path.
+3. Optional Bourgeon Skin here, or wait for the Episode 7 overworld Bourgeon. You only need one Skin.
+4. Log Paint Spikes. Do not start Ancient Sanctuary until Episode 4.
+
 ## BEFORE WE START
 
 - Maelle is missing until The Manor beat inside this area. On NG+ she still has her endgame kit when she returns.

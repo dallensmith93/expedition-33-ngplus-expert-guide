@@ -4,37 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Expedition 33 — NG+ Expert Field Manual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./app.css" />
   </head>
   <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="petals" aria-hidden="true">
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+    </div>
     <div class="app">
       <aside class="rail">
         <div class="brand">
-          <div class="mark">33</div>
+          <div class="mark">
+            <span>EXP</span>
+            <strong>33</strong>
+          </div>
           <div>
             <small>Clair Obscur</small>
             <strong>Field Manual</strong>
             <small>NG+ Expert · 1.5.5</small>
           </div>
         </div>
+        <p class="brand-line">Tomorrow comes.</p>
         <div class="meter" id="meter"><span></span></div>
         <p class="meter-label" id="meter-label">0 / 0 checks</p>
-        <input class="search" id="search" type="search" placeholder="Search episodes" />
+        <input class="search" id="search" type="search" placeholder="Search the expedition…" />
         <nav class="toc" id="toc"></nav>
       </aside>
       <main class="stage">
-        <header class="stage-head">
-          <p class="eyebrow" id="eyebrow">Episode</p>
-          <h1 id="title">Loading the route…</h1>
-          <p class="lede" id="lede">
-            Everything reasonably possible before Lumière. Episode 29 is the audit.
-            Episode 30 is the finale.
-          </p>
-          <div class="stage-actions">
-            <button type="button" id="prev">Previous</button>
-            <button type="button" id="next" class="primary">Next episode</button>
-          </div>
-        </header>
+        <figure class="hero" id="hero">
+          <img id="hero-img" alt="" />
+          <div class="hero-frame" aria-hidden="true"></div>
+          <figcaption class="hero-copy">
+            <p class="eyebrow" id="eyebrow">Episode</p>
+            <h1 id="title">Loading the route…</h1>
+            <p class="lede" id="lede">
+              Everything reasonably possible before Lumière. Episode 29 is the audit.
+              Episode 30 is the finale.
+            </p>
+          </figcaption>
+        </figure>
+        <div class="stage-actions">
+          <button type="button" id="prev">Previous</button>
+          <button type="button" id="next" class="primary">Next episode</button>
+        </div>
         <article class="paper" id="paper"></article>
       </main>
     </div>

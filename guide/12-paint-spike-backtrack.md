@@ -8,6 +8,13 @@ Break every Paint Spike we have already walked past. Do not enter Monoco's Stati
 
 Camp. Paint Break owned. Sastro's spike already broken (Episode 11).
 
+## THIS SESSION
+
+1. Confirm Paint Break. Break Sastro's camp spike if it is still up.
+2. Fast-travel every portal you have already used. Break every Paint Spike. Take Aegis Revival by Jar.
+3. Do **not** enter Monoco's Station. Do not start Old Lumière.
+4. Stop when Episodes 2–11 spikes are gone.
+
 ## BEFORE WE START
 
 - Strike / melee (`F` on PC, face-button melee on controller) breaks spikes. Shooting does not.

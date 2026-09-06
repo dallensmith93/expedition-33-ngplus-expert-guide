@@ -8,6 +8,13 @@ Clear Ancient Sanctuary, buy the Goblu record, grab Lost Gestral #1 if you walk 
 
 Continent, Flying Waters exit. Ancient Sanctuary portal in sight.
 
+## THIS SESSION
+
+1. Clear Ancient Sanctuary. Buy the Goblu record from Blabary if you have 1,000 Chroma.
+2. Take Journal 63 and the Paint Cage. Log Paint Spikes.
+3. If you walk the Esquie's Nest column road, you may grab Lost Gestral #1 now — otherwise Episode 6 takes it at the nest mouth.
+4. Stop at the village door. The password run is Episode 5.
+
 ## BEFORE WE START
 
 - 1,000 Chroma for Blabary. If you are short, sell nothing important — floor Chroma in Ancient Sanctuary covers it.

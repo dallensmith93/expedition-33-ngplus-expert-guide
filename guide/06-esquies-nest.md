@@ -8,6 +8,12 @@ Clear Esquie's Nest, beat Francois, recruit Esquie, take Journal 66, confirm Los
 
 Continent, Esquie's Nest portal. Lost Gestral in front if you have not spoken to him.
 
+## THIS SESSION
+
+1. Lost Gestral #1 at the nest portal if you do not already have it. Camp Sastro for Maelle's Gestral hair.
+2. Clear the nest. Beat Francois. Esquie joins. Journal 66 after the fight.
+3. Stop at the cave mouth. Do not start the smash-rock Continent tour. That is Episode 7.
+
 ## BEFORE WE START
 
 - Password from Golgra (Episode 5).

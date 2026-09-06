@@ -8,6 +8,13 @@ Every village collectible, merchant exclusive, tournament, Manor record, and the
 
 Gestral Village Entrance Expedition Flag.
 
+## THIS SESSION
+
+1. Turn in Weird Pictos. Clear every stall, duel, and village collectible. Sciel joins at the tournament.
+2. Manor record: Nocturne pour un masque de tristesse. Journal 52 on the arena path.
+3. Get Golgra's password for Esquie's Nest.
+4. Stop. Nest interior is Episode 6.
+
 ## BEFORE WE START
 
 - **Weird Pictos** must be in inventory (Episode 1).

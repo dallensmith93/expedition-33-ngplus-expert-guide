@@ -8,6 +8,12 @@ Clear the Peak, defeat the Paintress, start Act III. Do **not** fly the Continen
 
 Tower Peak Expedition Flag.
 
+## THIS SESSION
+
+1. Clear the Peak. Defeat the Paintress. Act III starts. Flight unlocks.
+2. Do **not** fly the Continent this episode except as the story forces. Do **not** enter Lumière.
+3. Camp once if the game forces it, then stop. Flying tour is Episode 21.
+
 ## BEFORE WE START
 
 - Painted Power will drop / already sits in your Lumina list. The first Act III action in Episode 21 is putting it on **everyone**.

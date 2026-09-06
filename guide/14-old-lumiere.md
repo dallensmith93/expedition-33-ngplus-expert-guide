@@ -8,6 +8,13 @@ Full Old Lumière: Old Key journal, Renoir record + journal, Renoir fight, post-
 
 Continent, Old Lumière entrance. **Old Key** in inventory.
 
+## THIS SESSION
+
+1. Full Old Lumière. Use the Old Key on the Left Street pipe for Fracture Survivor.
+2. Manor: Renoir record + journal. Beat Renoir. Post-camp rear journals, Paint Cage Redalim.
+3. Coral / Dorie unlocks at the end. Do **not** start the coral island tour.
+4. Stop. Episode 15 spends coral.
+
 ## BEFORE WE START
 
 # ⚠ MISSABLE

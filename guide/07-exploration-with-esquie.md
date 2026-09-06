@@ -8,6 +8,13 @@ Spend the mount/smash-rock unlock. Take every Continent secret that does **not**
 
 Continent, Esquie's Nest exit. Esquie mounted.
 
+## THIS SESSION
+
+1. Mount Esquie. Smash rocks. Do every Continent secret that does **not** need swim, coral, fly, or a full Yellow Harvest clear.
+2. Small Bourgeon (spare), Twilight Quarry record, Ancient Gestral City record, Gestral Beach parkour, Abbest Cave, Lost Gestral #2 east of Stone Wave Cliffs.
+3. Journal 62 north of the village. Overworld Bourgeon pack.
+4. Stop. Yellow Harvest interior is Episode 8. Stone Wave Cliffs dungeon is Episode 9.
+
 ## BEFORE WE START
 
 - Bourgeon Skin if you have one. If not, you will get one from the Stone Wave Cliffs Bourgeon this episode.

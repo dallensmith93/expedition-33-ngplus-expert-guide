@@ -8,6 +8,12 @@ Spend coral. 100% every Act II side area that is not Sirène, Visages, or the Mo
 
 Continent, Old Lumière **north** beach. Esquie can smash coral.
 
+## THIS SESSION
+
+1. Smash coral. Take Lost Gestrals #5 and #6. Camp Sastro for Verso's Gestral hair.
+2. Coastal Cave, red Mime island, Falling Leaves (Alicia + Until Next Life + Scavenger), Sinister Cave record, Gestral race, Rederi.
+3. Stop at the Axon doors. Sirène is Episode 16. Visages is Episode 17.
+
 ## BEFORE WE START
 
 - Monoco in the active trio for every new beach pack.

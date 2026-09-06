@@ -27,13 +27,58 @@ function inline(text) {
     .replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2">$1</a>');
 }
 
-function renderMarkdown(markdown, episodeId) {
-  const checks = loadChecks();
+const CARD_HEADING =
+  /^(BOSS|MIME|WEAPON|PICTO|JOURNAL|MUSIC RECORD|LOST GESTRAL|PAINT CAGE|NEVRON QUEST|NEW ENEMY|OUTFIT|QUEST ITEM|MONOCO SKILL|OPTIONAL AREA|RETURN LATER)\b/i;
+
+function headingClass(text) {
+  if (text.startsWith("FROM:")) return "flag";
+  if (CARD_HEADING.test(text)) return "card-title";
+  return "";
+}
+
+function splitSession(markdown) {
   const lines = markdown.replaceAll("\r\n", "\n").split("\n");
-  const html = [];
+  const session = [];
+  const rest = [];
+  let capturing = false;
+  for (const line of lines) {
+    if (/^## THIS SESSION\s*$/i.test(line.trim())) {
+      capturing = true;
+      continue;
+    }
+    if (capturing) {
+      if (/^##\s+/.test(line) || /^---+$/.test(line.trim())) {
+        capturing = false;
+        rest.push(line);
+        continue;
+      }
+      session.push(line);
+      continue;
+    }
+    rest.push(line);
+  }
+  return { session, rest: rest.join("\n") };
+}
+
+function renderSession(sessionLines) {
+  const items = sessionLines
+    .map((line) => line.trim())
+    .filter((line) => /^\d+\.\s+/.test(line))
+    .map((line) => `<li>${inline(line.replace(/^\d+\.\s+/, ""))}</li>`);
+  if (!items.length) return "";
+  return `<section class="session"><h2>This episode you</h2><ol class="session-list">${items.join("")}</ol></section>`;
+}
+
+function renderMarkdown(markdown, episodeId) {
+  const { session, rest } = splitSession(markdown);
+  const checks = loadChecks();
+  const lines = rest.split("\n");
+  const html = [renderSession(session)];
   let inTable = false;
   let listOpen = false;
   let checkIndex = 0;
+  let leadingTitles = true;
+  let inSession = false;
 
   const closeList = () => {
     if (listOpen) {
@@ -49,6 +94,13 @@ function renderMarkdown(markdown, episodeId) {
     }
   };
 
+  const closeSession = () => {
+    if (inSession) {
+      html.push("</ol></section>");
+      inSession = false;
+    }
+  };
+
   for (const raw of lines) {
     const line = raw.trimEnd();
     if (!line.trim()) {
@@ -58,6 +110,8 @@ function renderMarkdown(markdown, episodeId) {
     }
 
     if (line.startsWith("|")) {
+      leadingTitles = false;
+      closeSession();
       closeList();
       const cells = line.split("|").slice(1, -1).map((cell) => cell.trim());
       if (cells.every((cell) => /^:?-{3,}:?$/.test(cell))) continue;
@@ -76,12 +130,16 @@ function renderMarkdown(markdown, episodeId) {
     closeTable();
 
     if (/^---+$/.test(line.trim())) {
+      leadingTitles = false;
+      closeSession();
       closeList();
       html.push("<hr />");
       continue;
     }
 
     if (line.startsWith("# ⚠") || line.startsWith("# ⚠")) {
+      leadingTitles = false;
+      closeSession();
       closeList();
       html.push(`<div class="miss"><strong>${inline(line.replace(/^#\s+/, ""))}</strong></div>`);
       continue;
@@ -91,11 +149,26 @@ function renderMarkdown(markdown, episodeId) {
     if (heading) {
       closeList();
       const level = heading[1].length;
-      html.push(`<h${level}>${inline(heading[2])}</h${level}>`);
+      const text = heading[2];
+      if (leadingTitles && level === 1) {
+        continue;
+      }
+      leadingTitles = false;
+      if (/^THIS SESSION$/i.test(text)) {
+        closeSession();
+        inSession = true;
+        html.push('<section class="session"><h2>This episode you</h2><ol class="session-list">');
+        continue;
+      }
+      closeSession();
+      const klass = headingClass(text);
+      html.push(`<h${level}${klass ? ` class="${klass}"` : ""}>${inline(text)}</h${level}>`);
       continue;
     }
 
     if (line.trimStart().startsWith("☐") || line.trimStart().startsWith("- ☐") || line.trimStart().startsWith("* ")) {
+      leadingTitles = false;
+      closeSession();
       if (!listOpen) {
         html.push('<div class="checks">');
         listOpen = true;
@@ -114,9 +187,17 @@ function renderMarkdown(markdown, episodeId) {
       continue;
     }
 
+    leadingTitles = false;
+    if (inSession && /^\d+\.\s+/.test(line.trim())) {
+      html.push(`<li>${inline(line.trim().replace(/^\d+\.\s+/, ""))}</li>`);
+      continue;
+    }
+    closeSession();
     closeList();
     html.push(`<p>${inline(line)}</p>`);
   }
+
+  closeSession();
 
   closeList();
   closeTable();
@@ -139,14 +220,29 @@ function updateMeter(episodes) {
   document.getElementById("meter-label").textContent = `${done} / ${total} checks · ${percent}%`;
 }
 
+function artPath(episode) {
+  return `./art/${episode.id}.png`;
+}
+
+function shortTitle(title) {
+  return title
+    .replace(/^CLAIR OBSCUR: EXPEDITION 33$/i, "Master Index")
+    .replace(/^Clair Obscur: Expedition 33 — /, "")
+    .replace(/^Part \d+ — /, "");
+}
+
+function foldText(value) {
+  return value.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
+}
+
 function renderToc(episodes, currentId, query) {
-  const needle = query.trim().toLowerCase();
+  const needle = foldText(query.trim());
   const toc = document.getElementById("toc");
   toc.innerHTML = episodes
-    .filter((episode) => !needle || episode.title.toLowerCase().includes(needle) || String(episode.number).includes(needle))
+    .filter((episode) => !needle || foldText(episode.title).includes(needle) || String(episode.number).includes(needle))
     .map((episode) => {
       const label = episode.number === 0 ? "Index" : `Episode ${episode.number}`;
-      return `<a href="#${episode.id}" class="${episode.id === currentId ? "active" : ""}"><small>${label}</small>${escapeHtml(episode.title.replace(/^Clair Obscur: Expedition 33 — /, ""))}</a>`;
+      return `<a href="#${episode.id}" class="${episode.id === currentId ? "active" : ""}"><img src="${artPath(episode)}" alt="" /><span><small>${label}</small>${escapeHtml(shortTitle(episode.title))}</span></a>`;
     })
     .join("");
 }
@@ -154,12 +250,18 @@ function renderToc(episodes, currentId, query) {
 function showEpisode(episodes, id) {
   const episode = episodes.find((item) => item.id === id) ?? episodes[0];
   const eyebrow = episode.number === 0 ? "Master index" : `Episode ${episode.number} of 30`;
+  const title = shortTitle(episode.title);
   document.getElementById("eyebrow").textContent = eyebrow;
-  document.getElementById("title").textContent = episode.title.replace(/^Clair Obscur: Expedition 33 — /, "");
+  document.getElementById("title").textContent = title;
   document.getElementById("lede").textContent =
     episode.number === 30
       ? "Finale only. If anything is still missing, go back to Episode 29."
-      : "Follow the checklists in order. Return Later items are already scheduled.";
+      : episode.number === 0
+        ? "Tomorrow comes. Thirty episodes. Everything possible before Lumière."
+        : "Follow the checklists in order. Return Later items are already scheduled.";
+  document.getElementById("hero-img").src = artPath(episode);
+  document.getElementById("hero-img").alt = title;
+  document.title = `${title} — Expedition 33 Field Manual`;
   document.getElementById("paper").innerHTML = renderMarkdown(episode.markdown, episode.id);
 
   const index = episodes.findIndex((item) => item.id === episode.id);

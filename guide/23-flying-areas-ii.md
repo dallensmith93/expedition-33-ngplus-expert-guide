@@ -8,6 +8,13 @@ Every remaining flying side area except Flying Manor, Painting Workshop rematch,
 
 Continent, airborne. Reacher and Frozen Hearts done.
 
+## THIS SESSION
+
+1. Every remaining flying side area except Flying Manor, Painting Workshop rematch, Renoir's Drafts, and Verso's Drafts.
+2. Blanche at The Fountain — spare path for 100 Lumina. Chalier: kill on request.
+3. Last Lost Gestral. Camp Sastro for Pro Retreat.
+4. Stop. Hardest side areas are Episode 24.
+
 ## BEFORE WE START
 
 White Nevron sheet must still be clean (Chalier kill-on-request is allowed). Blanche is this episode.

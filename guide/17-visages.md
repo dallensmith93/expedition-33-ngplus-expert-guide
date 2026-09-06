@@ -8,6 +8,12 @@
 
 Continent, Visages entrance. Lettre à Maelle already obtained.
 
+## THIS SESSION
+
+1. 100% Visages: Joy / Sadness / Anger vales. Journals 69, 39, Unknown. Verso record at the Anger Vale piano.
+2. Beat Mask Keeper. Do **not** start the Monolith.
+3. Camp leftover ranks. Confirm Lettre à Maelle is already in the gramophone from Episode 16.
+
 ## BEFORE WE START
 
 PowerPyx order inside: left-to-right side paths, Peak (Axon) third-from-left last. We do Joy → Sadness → Anger → Peak.

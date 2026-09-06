@@ -8,6 +8,13 @@ Spend swim. Take every island that does **not** require coral. Grab Gustave's re
 
 Continent, Stone Wave Cliffs. Esquie can swim.
 
+## THIS SESSION
+
+1. Rear-enter the Lampmaster cliff. Take **Gustave**.
+2. Swim only. No coral. White Tree (record + Journal 36 + Lost Gestral #3), Meadows, south shore Journal 64, Blades, Boat Graveyard, volley beach, Painting Workshop visit 1.
+3. Check the orange Coastal Cave island. Take Gestral #5 only if you can dock. If coral blocks it, leave it for Episode 15.
+4. Camp Sastro for Sciel's Gestral hair. Do **not** enter Forgotten Battlefield.
+
 ## BEFORE WE START
 
 - If a coral wall stops a lane, skip that island. Episode 15.

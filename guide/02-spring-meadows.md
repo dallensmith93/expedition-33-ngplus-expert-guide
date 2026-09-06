@@ -8,6 +8,13 @@
 
 Spring Meadows landing. Gustave alone after the massacre cinematic.
 
+## THIS SESSION
+
+1. Landing → Meadows Corridor → Grand Meadow. Mime first (Baguette), then the big Portier, then Chromatic Lancelier **before** the rope up.
+2. Abandoned camp: spare **Jar**, get Resin, shoot the staff top, take the reward. Do not kill Jar. Log the Paint Spike to the right.
+3. Indigo Tree: kill Eveque. Turn around for Empowering Attack. Leave toward Flying Waters.
+4. Write Gustave's Journal if camp appears. Stop. Do not start Flying Waters until Episode 3.
+
 ## BEFORE WE START
 
 - Expert + NG+: Lancelier tutorial still teaches shot / parry. Do not skip the first fight if you want the free catalysts.

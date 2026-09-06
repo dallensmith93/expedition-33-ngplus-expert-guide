@@ -8,6 +8,13 @@ Prove we are done. Every deferred line from Episodes 1–28 is either completed 
 
 Camp. Do not open the Lumière finale portal until the last line of this episode.
 
+## THIS SESSION
+
+1. Open Journals, Records, Pictos, Weapons, Relationships, Monoco skills. Audit against this page.
+2. Fill any hole using the WHAT / WHERE / FROM / HOW block. Do not invent a new cleanup route.
+3. When the audit is green: **100% PRE-FINALE COMPLETE**. Then **READY FOR LUMIÈRE**.
+4. Do **not** walk into the Lumière portal until Episode 30.
+
 ## BEFORE WE START
 
 Open the in-game lists: Journals, Records (gramophone), Pictos, Weapons, Relationship, Monoco skills. Cross them against this audit. If something is missing, use the **WHAT / WHERE / FROM / HOW / WHY** block under that section.

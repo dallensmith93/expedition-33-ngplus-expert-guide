@@ -8,6 +8,13 @@ Turn flight on. Finish every relationship rank that does not need a long dungeon
 
 Act III camp after the Paintress.
 
+## THIS SESSION
+
+1. Equip Painted Power on everyone. Leave camp if the story demands it, then **return**. Do not fly to Lumière.
+2. Finish every relationship rank that is not a long dungeon. Esquie 6 = Francois 1v1 = **dive**. Sciel / Lune / Monoco records at 6.
+3. Easy flying pickups: Julie + Verso journals, Lost Gestrals #7 and #8, Sprong, Grosse Tête, Sirène's Dress if Lune 6 is ready.
+4. Long dungeons wait: Reacher and Frozen Hearts are Episode 22. Stop.
+
 ## BEFORE WE START
 
 - Painted Power on **every** character as a Lumina.

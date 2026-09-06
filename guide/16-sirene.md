@@ -8,6 +8,13 @@
 
 Continent, Sirène entrance. Coral sweep done.
 
+## THIS SESSION
+
+1. 100% Sirène as your **first Axon**. Both Paint Cages, journals 55 and 67, Tisseur, Sirène herself.
+2. Exit to the Continent. Do **not** walk into Visages.
+3. Camp immediately. Choose **Check up on the others** until Verso plays piano for Maelle and Esquie. That is **Lettre à Maelle**.
+4. Rank talks: Sciel 5, Lune 5, Maelle 5, Monoco 4. Play the new record. Stop.
+
 ## BEFORE WE START
 
 # ⚠ MISSABLE

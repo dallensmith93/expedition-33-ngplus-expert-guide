@@ -10,6 +10,13 @@ This is not a cleanup episode. If you are missing Continent content, go back to 
 
 Continent, Lumière portal. Episode 29 audit green.
 
+## THIS SESSION
+
+1. Enter the Lumière portal. This is the only finale-only session.
+2. On the story path: Aberration Light, Journal 60 (Opera House exterior), Lumière record copy, Creation Void, Trash-can Man if you found him in Episode 1.
+3. Final sequence. Pick the ending you want. Our Drafts Collide is automatic.
+4. There is no Episode 31.
+
 ## BEFORE WE START
 
 - Monoco in the party for Aberration Light and Creation Void.

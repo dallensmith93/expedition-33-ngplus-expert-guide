@@ -8,6 +8,12 @@ Enter Verso's Drafts (Thank You / 1.5.0). Natural first clear: Open Playground, 
 
 Continent, **east of Lumière**, dive / portal into Verso's Drafts. You are **not** inside the Lumière finale instance.
 
+## THIS SESSION
+
+1. Dive to Verso's Drafts east of Lumière. Not the Lumière finale door.
+2. First clear: Open Playground, Gestral Baths, Reverie Path, both Paint Cages, easier chromatics, Half-Baked Gestral, cake pieces you walk past.
+3. Do **not** save Candy Land / Licornapieds / Osquio "for later" if you walk into them — but prefer to stop before those three. Episode 27 owns them.
+
 ## BEFORE WE START
 
 - Act III + dive required (official 1.5.0).

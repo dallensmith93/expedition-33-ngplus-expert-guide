@@ -8,6 +8,13 @@ Finish Verso's Drafts. Candy Land, Cannaro, Mime, Licornapieds, cake quest, Root
 
 Reverie Path Expedition Flag, or Candy Land if you already walked there.
 
+## THIS SESSION
+
+1. If Simon is still alive, finish The Abyss first.
+2. Candy Land: Chromatic Machinapieds (Cannaro), Mime, leftover pickups, cake turn-in.
+3. Licornapieds. Then Root of All Evil: **Osquio**. Buy the post-boss shop.
+4. Confirm Drafts 100%. Do **not** enter Lumière.
+
 ## BEFORE WE START
 
 - 1.5.1 moved Osquio's red lifebuoy. If a pre-patch video disagrees with geometry, trust the current map.

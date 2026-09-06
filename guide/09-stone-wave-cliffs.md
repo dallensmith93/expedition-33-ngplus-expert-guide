@@ -8,6 +8,13 @@ Full Stone Wave Cliffs clear: three journals, Hexga quest, two Paint Cages, Floo
 
 Continent, Stone Wave Cliffs portal. Lost Gestral #2 already collected (Episode 7).
 
+## THIS SESSION
+
+1. Full Stone Wave Cliffs: journals 78, 56, 50. Both Paint Cages. Hexga quest — spare Hexga.
+2. Flooded Buildings weapon. Lampmaster. Act I ends. Swim unlocks.
+3. Do **not** pick up Gustave's record yet if the post-scene cliff is still locked — Episode 10 walks the rear entrance.
+4. Stop. Do not enter Forgotten Battlefield.
+
 ## BEFORE WE START
 
 - If you still lack a Bourgeon Skin, you already had a chance in Episodes 3 and 7.

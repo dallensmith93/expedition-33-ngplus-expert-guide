@@ -8,6 +8,12 @@ Use dive. Clear every glowing whirlpool that holds a finite pickup. Open Renoir'
 
 Continent, Esquie mounted, dive unlocked (Episode 21 Francois 1v1). If dive is somehow still locked, camp Esquie to 6 now.
 
+## THIS SESSION
+
+1. Confirm dive (Esquie rank 6 + Francois 1v1). Clear glowing whirlpools that hold finite pickups.
+2. Open Renoir's Drafts. Take Endless Light. Fight **Simon** if you are ready; otherwise start The Abyss and finish him in Episode 27.
+3. Do **not** enter Verso's Drafts. Do **not** enter Lumière.
+
 ## BEFORE WE START
 
 - Dive: swim, then interact with **glowing blue bubbling whirlpools**.

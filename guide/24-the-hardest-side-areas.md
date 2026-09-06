@@ -8,6 +8,13 @@ Painting Workshop Lampmaster rematch. Flying Manor 100% including both Paint Cag
 
 Continent, Painting Workshop floating island east of Sirène.
 
+## THIS SESSION
+
+1. Painting Workshop Lampmaster rematch.
+2. Flying Manor 100%: both Paint Cages, **Clea**. Pick the Clea outfit for a character who does not already own it.
+3. Optional Golgra rematch. Simon waits for dive unless you already opened Renoir's Drafts.
+4. Do **not** enter Lumière. Dive content is Episode 25.
+
 ## BEFORE WE START
 
 - Maelle Gommage unlocked (Episode 22 Truth).

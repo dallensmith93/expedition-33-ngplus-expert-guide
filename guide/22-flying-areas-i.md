@@ -8,6 +8,13 @@ The Reacher (Maelle 6 + **Truth** 7). Frozen Hearts 100% including both Paint Ca
 
 Continent, The Reacher portal (west of Visages, fly).
 
+## THIS SESSION
+
+1. The Reacher. After the Alicia / Reacher fight, camp Maelle. Choose **(TRUTH)**. Do not lie.
+2. Frozen Hearts 100%: both Paint Cages, Danseuse (spare), Manor record, Family Canvas journal, Eternal Ice.
+3. Return Eternal Ice to the Grandis at Monoco's Station.
+4. Stop. Remaining flying islands are Episode 23.
+
 ## BEFORE WE START
 
 # ⚠ MISSABLE

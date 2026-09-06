@@ -10,6 +10,13 @@ Supporting research lives in `/research`. If a line is marked **VERIFY IN GAME**
 
 ---
 
+## THIS SESSION
+
+1. You are not playing yet. Read the missable shortlist once.
+2. Open Episode 1. Do only what that episode's **This episode you** list says, then stop.
+3. Each later episode starts where the last one told you to stop. Do not invent your own cleanup pass.
+4. Episode 29 proves 100% before Lumière. Episode 30 is the finale only.
+
 ## How to use this guide
 
 1. Open the episode that matches where you are.

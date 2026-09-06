@@ -8,6 +8,13 @@ Last Act II Continent check before we commit to the Monolith dungeon. Buy leftov
 
 Continent, between Visages / Sirène / the Monolith beach.
 
+## THIS SESSION
+
+1. Last Act II Continent check. Confirm Lettre à Maelle, Fracture Survivor, six Gestrals, Paint Break, spared Nevrons.
+2. Buy leftover beach merchant stock. Do any approach Mime / Petank.
+3. Touch the Monolith entrance flag if you want the warp. Do **not** climb Tainted Meadows.
+4. Stop. Interior is Episode 19.
+
 ## BEFORE WE START
 
 Confirm these are **done**. If any line is unchecked, do it now instead of "later."

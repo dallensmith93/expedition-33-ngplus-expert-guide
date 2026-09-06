@@ -8,6 +8,14 @@ Clear every finite Prologue pickup, secret, and Festival Token reward before the
 
 Lumière rooftops. Gustave. Opening control after the first cinematic.
 
+## THIS SESSION
+
+1. Confirm Expert. Rooftops: flower for Sophie, follow Maelle, win or skip the tutorial fight.
+2. In the plaza, do every secret **before** you walk Sophie to the harbour: Richard, Eloise, Nicolas, Trash-can Man, Life Enjoyers (33 knocks), Mime.
+3. After the Gommage, Festival: Antoine quiz + Maelle dock duel for three tokens.
+4. Spend tokens on **Old Key** (Colette) and **Weird Pictos** (Tom). Buy the Bun only if you do not already own it.
+5. Talk to Emma and launch. Stop. Spring Meadows is Episode 2.
+
 ## BEFORE WE START
 
 - Difficulty: **Expert**. Confirm it in Gameplay before the first fight.
@@ -201,7 +209,7 @@ Antoine answers:
 
 Walk the three stalls in this order:
 
-☐ **Colette** (blue roof / blue hat, back-left / third stall depending on camera). Trade 1 token.
+☐ **Colette** (Old Key stall — right-most from the festival steps / third stall; she trades a mysterious object, not a haircut). Trade 1 token.
 
 # ⚠ MISSABLE
 

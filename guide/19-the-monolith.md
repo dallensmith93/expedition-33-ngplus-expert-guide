@@ -8,6 +8,12 @@
 
 Monolith Entrance Expedition Flag (exterior then interior).
 
+## THIS SESSION
+
+1. 100% the Monolith interior: three Paint Cages (break the spike lock on Random Defense), Manor record and Aline journal, Journal 70.
+2. Monoco learns skills from the tainted copies. Keep him in.
+3. Stop at Tower Peak / the door to the Peak. Paintress is Episode 20.
+
 ## BEFORE WE START
 
 Paint Break is required for Monolith Paint Cage 2 (Random Defense) — one lock is behind a spike.
