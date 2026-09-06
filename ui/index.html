@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Expedition 33 — NG+ Expert Field Manual</title>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="rail">
+        <div class="brand">
+          <div class="mark">33</div>
+          <div>
+            <small>Clair Obscur</small>
+            <strong>Field Manual</strong>
+            <small>NG+ Expert · 1.5.5</small>
+          </div>
+        </div>
+        <div class="meter" id="meter"><span></span></div>
+        <p class="meter-label" id="meter-label">0 / 0 checks</p>
+        <input class="search" id="search" type="search" placeholder="Search episodes" />
+        <nav class="toc" id="toc"></nav>
+      </aside>
+      <main class="stage">
+        <header class="stage-head">
+          <p class="eyebrow" id="eyebrow">Episode</p>
+          <h1 id="title">Loading the route…</h1>
+          <p class="lede" id="lede">
+            Everything reasonably possible before Lumière. Episode 29 is the audit.
+            Episode 30 is the finale.
+          </p>
+          <div class="stage-actions">
+            <button type="button" id="prev">Previous</button>
+            <button type="button" id="next" class="primary">Next episode</button>
+          </div>
+        </header>
+        <article class="paper" id="paper"></article>
+      </main>
+    </div>
+    <script src="./episodes.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

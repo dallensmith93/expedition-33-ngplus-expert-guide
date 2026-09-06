@@ -1,0 +1,199 @@
+:root {
+  color-scheme: dark;
+  --ink: #eee7d9;
+  --muted: #9a9488;
+  --void: #070809;
+  --panel: #101416;
+  --gold: #c7a96c;
+  --gold-bright: #ead39c;
+  --line: rgba(232, 216, 184, 0.16);
+  --red: #c46a55;
+  --green: #8eae86;
+  --serif: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --sans: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  background:
+    radial-gradient(circle at 80% -10%, rgba(70, 90, 104, 0.28), transparent 36rem),
+    radial-gradient(circle at 0% 80%, rgba(120, 84, 40, 0.12), transparent 28rem),
+    var(--void);
+  color: var(--ink);
+  font-family: var(--sans);
+}
+
+.app {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 300px minmax(0, 1fr);
+}
+
+.rail {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: auto;
+  padding: 1.25rem 1rem 2rem;
+  border-right: 1px solid var(--line);
+  background: rgba(10, 12, 13, 0.92);
+}
+
+.brand {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 0.8rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.mark {
+  display: grid;
+  width: 58px;
+  height: 68px;
+  place-items: center;
+  border: 1px solid var(--gold);
+  color: var(--gold-bright);
+  font: 400 1.8rem/1 var(--serif);
+}
+
+.brand small, .brand strong { display: block; }
+.brand small { color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.68rem; }
+.brand strong { font-family: var(--serif); font-size: 1.35rem; }
+
+.meter {
+  height: 6px;
+  margin: 0.8rem 0 0.35rem;
+  background: #1c2124;
+  border: 1px solid var(--line);
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: var(--gold);
+}
+
+.meter-label {
+  margin: 0 0 0.9rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.search {
+  width: 100%;
+  margin-bottom: 0.85rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--line);
+  background: #0b0d0e;
+  color: var(--ink);
+}
+
+.toc { display: grid; gap: 0.28rem; }
+
+.toc a {
+  display: block;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid transparent;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.toc a small {
+  display: block;
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.toc a.active, .toc a:hover {
+  border-color: var(--line);
+  background: rgba(199, 169, 108, 0.08);
+  color: var(--gold-bright);
+}
+
+.stage { padding: 2rem clamp(1.2rem, 4vw, 3.5rem) 5rem; }
+
+.eyebrow {
+  margin: 0 0 0.4rem;
+  color: var(--gold);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.74rem;
+}
+
+.stage-head h1 {
+  margin: 0 0 0.7rem;
+  font-family: var(--serif);
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 400;
+  line-height: 0.95;
+}
+
+.lede { max-width: 46rem; color: var(--muted); }
+
+.stage-actions { display: flex; gap: 0.6rem; margin: 1.2rem 0 1.6rem; }
+
+button {
+  padding: 0.65rem 0.95rem;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+button.primary {
+  border-color: var(--gold);
+  background: rgba(199, 169, 108, 0.12);
+  color: var(--gold-bright);
+}
+
+.paper {
+  max-width: 52rem;
+  padding: 1.4rem 1.5rem 2rem;
+  border: 1px solid var(--line);
+  background: rgba(16, 20, 22, 0.88);
+}
+
+.paper h1, .paper h2, .paper h3, .paper h4 {
+  font-family: var(--serif);
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+.paper h1 { font-size: 2rem; }
+.paper h2 { margin-top: 1.8rem; color: var(--gold-bright); }
+.paper h3 { margin-top: 1.2rem; }
+.paper p, .paper li { color: #ddd6c8; }
+.paper hr { border: 0; border-top: 1px solid var(--line); }
+.paper code {
+  padding: 0.05rem 0.28rem;
+  border: 1px solid var(--line);
+  color: var(--gold-bright);
+  font-size: 0.92em;
+}
+.paper table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.92rem; }
+.paper th, .paper td { padding: 0.4rem 0.5rem; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+.paper .miss {
+  margin: 1rem 0;
+  padding: 0.8rem 1rem;
+  border-left: 3px solid var(--red);
+  background: rgba(196, 106, 85, 0.08);
+}
+.paper label.check {
+  display: flex;
+  gap: 0.55rem;
+  align-items: flex-start;
+  margin: 0.35rem 0;
+  cursor: pointer;
+}
+.paper label.check input { margin-top: 0.28rem; accent-color: var(--gold); }
+.paper label.check.done span { color: var(--green); text-decoration: line-through; }
+
+@media (max-width: 860px) {
+  .app { grid-template-columns: 1fr; }
+  .rail { position: relative; height: auto; }
+}
