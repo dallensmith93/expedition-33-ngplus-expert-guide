@@ -265,16 +265,24 @@ function showEpisode(episodes, id) {
   document.getElementById("paper").innerHTML = renderMarkdown(episode.markdown, episode.id);
 
   const index = episodes.findIndex((item) => item.id === episode.id);
-  const prev = episodes[index - 1];
-  const next = episodes[index + 1];
-  document.getElementById("prev").disabled = !prev;
-  document.getElementById("next").disabled = !next;
-  document.getElementById("prev").onclick = () => {
-    if (prev) location.hash = prev.id;
+  const prev = episodes[index - 1] ?? episodes[episodes.length - 1];
+  const next = episodes[index + 1] ?? episodes[0];
+  const goPrev = () => {
+    location.hash = prev.id;
   };
-  document.getElementById("next").onclick = () => {
-    if (next) location.hash = next.id;
+  const goNext = () => {
+    location.hash = next.id;
   };
+  for (const id of ["prev", "prev-end"]) {
+    const button = document.getElementById(id);
+    button.disabled = false;
+    button.onclick = goPrev;
+  }
+  for (const id of ["next", "next-end"]) {
+    const button = document.getElementById(id);
+    button.disabled = false;
+    button.onclick = goNext;
+  }
 
   renderToc(episodes, episode.id, document.getElementById("search").value);
   updateMeter(episodes);

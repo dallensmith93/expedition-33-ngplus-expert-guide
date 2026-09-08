@@ -326,6 +326,7 @@ body::before {
 }
 
 .stage-actions { display: flex; gap: 0.6rem; margin: 0 0 1.2rem; }
+.stage-actions-end { margin: 1.2rem 0 0; }
 
 button {
   padding: 0.7rem 1.05rem;
